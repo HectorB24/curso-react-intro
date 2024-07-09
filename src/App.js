@@ -1,4 +1,6 @@
-import logo from './platzi.webp';
+import { TodoCounter } from './TodoCounter';
+import { TodoSearch } from './TodoSearch';
+import { TodoList } from './TodoList';
 import './App.css';
 
 function App() {
@@ -14,17 +16,9 @@ function App() {
         <TodoItem />
       </TodoList>
 
-      <CreateTodoButtom/>
+      {/* <CreateTodoButtom/> */}
 
     </div>
-  );
-}
-
-function TodoCounter(){
-  return(
-    <h1>
-      Has completado 3 de 5 TODOS
-    </h1>
   );
 }
 
